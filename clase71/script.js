@@ -54,10 +54,17 @@ return pelo;
 // 5 Crear una funcion que devuelva al mas alto, al mas bajo, 
 //al mas anciano, al mas joven o al mas ancho de "Brastlewark".
 
-const habitante = (caracteristica) => {
-    for 
-    switch (caracteristica) {
-        case 'alto' : return 
-    }
 
+
+
+
+const traerElMas = (prop) => {
+    let elMas = {};
+    elMas[prop] = 0;
+
+    let elMas = habitants[0];
+    for (habitant of habitants) {
+        if (habitant[prop] > elMas[prop])
+    }
 }
+console.log(traerElMas("height"))
